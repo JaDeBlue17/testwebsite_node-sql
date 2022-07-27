@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/test.css">
+    <script type="text/javascript" src="/js/test.js"></script>
+    <title>Test</title>
+</head>
+<body> 
+    <div class="formbox">
+        <h1 id="heading">Student Registeration Form</h1>
+        <form class="reg" id="reg" name="reg" onsubmit="return validation()">
+            <div class="enter">
+                Username: 
+                <input type="text" id="uname" name="uname" placeholder="--userID--">
+            </div>
+            <div class="enter">
+                Email ID: 
+                <input type="text" id="mail" name="mail" placeholder="--mailID--">
+            </div>
+            <div class="enter">
+                Gender: 
+                <input type="radio" class="gen" name="gen" value="Male">Male&emsp;
+                <input type="radio" class="gen" name="gen" value="Female">Female&emsp;
+                <input type="radio" class="gen" name="gen" value="Other">Other
+            </div>
+            <div class="enter">
+                Phone Number: 
+                <input type="number" id="phno" name="phno" maxlength="10">
+            </div>
+            <div class="enter">
+                Date Of Birth: 
+                <input type="date" id="dob" name="dob">
+            </div>
+            <div class="enter">Create a password -</div>
+            <div class="enter">
+                Password:
+                <input type="password" id="pass" name="pass"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@|$|#|&]).{7,}"
+                title="Password should contain at least one upper case letter, one lower case letter, one digit, one special character(&,$,#,@) and be at leat 7 characters long">
+            </div>
+            <div class="enter">
+                Confirm Password:
+                <input type="password" id="conpas" name="conpas">
+            </div>
+            <div class="button">
+                <button type="submit" class="btn">Submit</button>&emsp;&emsp;
+                &emsp;&emsp;<button type="reset" class="btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

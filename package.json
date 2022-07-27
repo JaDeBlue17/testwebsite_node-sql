@@ -1,0 +1,15 @@
+{
+  "name": "test-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-express.js",
+  "scripts": {
+    "test": "node test-express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

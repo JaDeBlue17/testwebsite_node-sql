@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: Segoe UI;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.enter{
+    margin: 20px;
+    padding: 10px;
+    font-family: Consolas;
+    font-size: 18px;
+}
+
+.btn{
+    margin: 20px;
+}
+
+.btn{
+    padding: 5px;
+    font-family: Consolas;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(248, 222, 187);
+}
+
+.btn:hover{
+    border: 2px solid white;
+    background-color: rgb(77, 57, 32);
+    color: white;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    text-align: left;
+}
