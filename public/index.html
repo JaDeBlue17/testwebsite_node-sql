@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/test.css">
-    <script type="text/javascript" src="/js/test.js"></script>
     <title>Test</title>
 </head>
 <body> 
     <div class="formbox">
         <h1 id="heading">Student Registeration Form</h1>
-        <form class="reg" id="reg" name="reg" onsubmit="return validation()" method="POST" action="/">
+        <form class="reg" id="reg" name="reg" method="POST">
             <div class="enter">
                 Username: 
                 <input type="text" id="uname" name="uname" placeholder="--userID--">
@@ -45,11 +44,13 @@
                 Confirm Password:
                 <input type="password" id="conpas" name="conpas">
             </div>
+            <div class="errmsgs" id="errmsgs"></div>
             <div class="button">
                 <button type="submit" class="btn">Submit</button>&emsp;&emsp;
                 &emsp;&emsp;<button type="reset" class="btn">Reset</button>
             </div>
         </form>
     </div>
+    <script type="text/javascript" src="/js/test.js"></script>
 </body>
 </html>
