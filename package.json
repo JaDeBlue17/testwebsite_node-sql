@@ -2,8 +2,9 @@
   "name": "test-website",
   "version": "0.0.0",
   "private": true,
+  "main": "test-express.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node test-express.js"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
